@@ -4,7 +4,6 @@ import {getBirds,create,getObservations} from '../controllers/ObservationControl
 
 const ObservationContainer =()=>{
     const [birds, setBirds] = useState([]); //constin perässä ensin muuttuja sitten funktio
-    const [observations, setObservations] = useState([]); 
     const [observation, setObservation] = useState({});
 
     useEffect(()=>{
